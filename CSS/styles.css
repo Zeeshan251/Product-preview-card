@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flexbox{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    justify-content:space-between;
+    width: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    /* padding-right: 15px; */
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.main{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column; 
+}
+
+.second{
+    align-self: flex-start;
+    width: 70vh;
+    margin-right: 25px;
+}
+
+.photo{
+    width:300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* height: 120%; */
+}
+
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.perfume{
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    min-height: 8vh;
+    display: flex;
+    letter-spacing: 0.3rem;
+    align-items: center;
+    font-size: 12px;
+    /* font-weight: 700; */
+    /* justify-content: left; */
+}
+
+.gabriel{
+    /* min-height: 2vh; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+
+.channel{
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    line-height: 1.2rem;
+    font-size: 15px;
+    letter-spacing: 0.05rem;
+}
+
+.price{
+    /* min-height: 10vh; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 35px;
+}
+
+.first-price{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.add-cart {
+    min-height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    /* color: rgb(220, 218, 215);
+    background-color: rgb(61, 132, 106);
+    border-color: rgb(61, 132, 106); */
+
+    min-height: 4vh;
+}
+
+.btn {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #42855B;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #1C6758;
+    text-decoration: none;
+  }
+  
+  a{
+    margin-left: 15px;
+    color: #fff;
+    
+  }
+
+  a:link{text-decoration: none;}    
+
+
+
